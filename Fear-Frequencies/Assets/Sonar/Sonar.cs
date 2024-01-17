@@ -20,6 +20,7 @@ public class Sonar : MonoBehaviour
     void Start()
     {
         _wavePool = new WavePoolManager(100, waveSpeed, waveMaxDistance, material);
+        _wavePool.SpawnWave(transform.position);
     }
 
     // Update is called once per frame
