@@ -7,17 +7,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sonar_Material
-  m_Shader: {fileID: -6465566751694194690, guid: f06e3eb3c2035994a8a1fc1260c2294b, type: 3}
+  m_Name: Sonar_Material 1
+  m_Shader: {fileID: -6465566751694194690, guid: f2300ba203df3834b98a36725abed1d7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -70,11 +72,20 @@ Material:
     m_Ints: []
     m_Floats:
     - REQUIRE_DEPTH_TEXTURE: 1
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 0
+    - _BUILTIN_DstBlend: 10
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 5
+    - _BUILTIN_Surface: 1
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 0
+    - _BUILTIN_ZWriteControl: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Debug_View: 0
+    - _Debug_View: 1
     - _DepthStrength: 0.5
     - _DepthThickness: 0.5
     - _DepthThreshold: 0.5
@@ -90,7 +101,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Range: 30.013882
+    - _Range: 5
     - _Show_Always: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -101,12 +112,16 @@ Material:
     - _WaveWidth: 0.05
     - _Wave_Width: 100
     - _ZWrite: 1
+    - _range: 11
     m_Colors:
+    - _Camera: {r: 0, g: 0, b: 0, a: 0}
+    - _Camera_Forward: {r: 0, g: 0, b: 0, a: 0}
     - _Center: {r: 0, g: 2, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Frensel_Color: {r: 0.39999998, g: 1, b: 0.9344308, a: 0}
     - _Fresnel_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Origin: {r: 0, g: 0, b: 0, a: 0}
     - _Outline_Color: {r: 0, g: 1, b: 0.72738314, a: 0}
     - _Outline_Colour: {r: 1, g: 0, b: 0, a: 0}
     - _Wave_Color: {r: 1, g: 1, b: 1, a: 0}

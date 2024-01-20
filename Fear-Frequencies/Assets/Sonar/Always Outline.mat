@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sonar_Material
+  m_Name: Always Outline
   m_Shader: {fileID: -6465566751694194690, guid: f06e3eb3c2035994a8a1fc1260c2294b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -74,7 +74,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Debug_View: 0
+    - _Debug_View: 1
     - _DepthStrength: 0.5
     - _DepthThickness: 0.5
     - _DepthThreshold: 0.5
